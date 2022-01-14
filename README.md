@@ -1,5 +1,5 @@
 # mifi-embedded
-Tools for make GL.inet MiFi Routers run unattended.
+Tools for make [GL.inet MiFi Routers](https://openwrt.org/toh/gl.inet/gl-mifi?s[]=mifi) run unattended.
 
 ## Hardware
 
