@@ -54,6 +54,18 @@ uci commit dhcp
 opkg update; opkg install iputils-arping tcpdump
 ```
 
+## Add Zerotier
+
+```
+opkg update
+opkg install zerotier
+uci set zerotier.openwrt_network=zerotier
+uci add_list zerotier.openwrt_network.join='0cccb752f7fa18c9'
+uci set zerotier.openwrt_network.enabled='1'
+uci commit zerotier
+reboot
+```
+
 ## See also
 
 * https://github.com/mdornseif/raspberry-embedded
