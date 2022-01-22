@@ -3,6 +3,8 @@ Tools for make [GL.inet MiFi Routers](https://openwrt.org/toh/gl.inet/gl-mifi?s[
 
 ## Hardware
 
+Manuals are available [here](http://download.gl-inet.com/download/mifi/).
+
 For germany there are two relevant hartware variants:
 
 * EP06-E LA Modem - supports more bads and is more expensive.
