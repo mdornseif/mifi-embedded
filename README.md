@@ -68,6 +68,16 @@ uci commit zerotier
 reboot
 ```
 
+## collectd
+
+collectd is not supported in the gl.inet default repositoriey. Install it via:
+
+   opkg install http://download.gl-inet.com.s3.amazonaws.com/releases/packages-3.x/ath79/packages/collectd_5.11.0-9_mips_24kc.ipk \
+     http://download.gl-inet.com.s3.amazonaws.com/releases/packages-3.x/ath79/packages/collectd-mod-ping_5.11.0-9_mips_24kc.ipk \
+     http://download.gl-inet.com.s3.amazonaws.com/releases/packages-3.x/ath79/packages/collectd-mod-network_5.11.0-9_mips_24kc.ipk \
+     http://download.gl-inet.com.s3.amazonaws.com/releases/packages-3.x/ath79/packages/collectd-mod-interface_5.11.0-9_mips_24kc.ipk 
+     
+
 ## See also
 
 * https://github.com/mdornseif/raspberry-embedded
